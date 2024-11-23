@@ -269,3 +269,21 @@ let txt  = 'aaa ' + str1 + ' bbb ' + str2 + ' ccc';
 // Решение 30.
 // let str = 'abcde';
 // alert(str[str.length-3]);
+
+
+// Задача 31.
+// Переделайте этот код так, чтобы в нем использовались описанные сокращенные операции:
+// let num = 47;
+// num = num + 7;
+// num = num - 18;
+// num = num * 10;
+// num = num / 15;
+// alert(num);
+
+// Решение 31.
+// let num = 47;
+// num += 7;
+// num -= 18;
+// num *= 10;
+// num /= 15;
+// alert(num);
