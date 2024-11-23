@@ -44,3 +44,12 @@
 // Решение 4.
 // let obj = {x: 1, y: 2, z: 3};
 // alert(Object.keys(obj));
+
+
+// Задача 5.
+// Найдите количество элементов в следующем объекте:
+// let obj = {x: 1, y: 2, z: 3};
+
+// Решение 5.
+let obj = {x: 1, y: 2, z: 3};
+alert(Object.keys(obj).length);
