@@ -51,5 +51,5 @@
 // let obj = {x: 1, y: 2, z: 3};
 
 // Решение 5.
-let obj = {x: 1, y: 2, z: 3};
-alert(Object.keys(obj).length);
+// let obj = {x: 1, y: 2, z: 3};
+// alert(Object.keys(obj).length);
