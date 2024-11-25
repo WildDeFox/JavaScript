@@ -145,3 +145,15 @@
 // for(let i = arr.length - 1; i >= 0; i--) {
 //     console.log(arr[i]);
 // }
+
+
+// Задача 15.
+// Выведите в консоль те элементы объекта, значения которых - нечетные числа.
+
+// Решение 15.
+let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
+for (let elem in obj) {
+    if (obj[elem] % 2 == 0) {
+        console.log(obj[elem]);
+    }
+}
