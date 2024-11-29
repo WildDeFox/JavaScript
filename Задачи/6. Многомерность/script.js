@@ -252,3 +252,50 @@
 //     }
 // }
 // console.log(sum);
+
+
+// Задание 11.
+// Выведите на экран данные каждого работника в формате имя - зарплата.
+// let employees = [
+// 	{
+// 		name: 'name1',
+// 		salary: 300,
+// 	},
+// 	{
+// 		name: 'name2',
+// 		salary: 400,
+// 	},
+// 	{
+// 		name: 'name3',
+// 		salary: 500,
+// 	},
+// ];
+
+// Решение 
+// for (let elem of employees) {
+//     document.write(`${elem.name} - ${elem.salary} <br>`);
+// }
+
+
+// Задание 12.
+// Выведите на экран сумму зарплат всех работников.
+
+// Решение
+// let employees = [
+// 	{
+// 		name: 'name1',
+// 		salary: 300,
+// 	},
+// 	{
+// 		name: 'name2',
+// 		salary: 400,
+// 	},
+// 	{
+// 		name: 'name3',
+// 		salary: 500,
+// 	},
+// ];
+// let sum = 0;
+// for (let elem of employees) {
+//     sum += elem.salary;
+// }
