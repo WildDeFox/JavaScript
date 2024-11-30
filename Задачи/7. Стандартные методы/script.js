@@ -70,11 +70,23 @@
 // С помощью цикла заполните массив 10-ю случайными целыми числами.
 
 // Решение 
-function getRandomInt(min, max) {
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-let arr = [];
-for (let i = 0; i < 10; i ++) {
-    arr.push(getRandomInt(1, 100));
-}
-document.write(arr);
+// function getRandomInt(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// let arr = [];
+// for (let i = 0; i < 10; i ++) {
+//     arr.push(getRandomInt(1, 100));
+// }
+// document.write(arr);
+
+
+// Задание 9.
+// Дана строка 'js'. Сделайте из нее строку 'JS'.
+
+// Решение
+// console.log('js'.toUpperCase);
+
+
+// Задание 10
+// Дана строка 'JS'. Сделайте из нее строку 'js'.
+// console.log('JS'.toLowerCase());
