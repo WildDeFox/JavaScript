@@ -100,7 +100,23 @@
 // строка.substr(откуда отрезать, [сколько символов отрезать]);
 // строка.substring(откуда начать отрезать, [докуда отрезать]);
 // строка.slice(откуда отрезать, [докуда отрезать]);
-let str = 'я учу javascript!';
-console.log(str.substr(2, 3));
-console.log(str.substring(2, 5));
-console.log(str.slice(2, 5));
+// let str = 'я учу javascript!';
+// console.log(str.substr(2, 3));
+// console.log(str.substring(2, 5));
+// console.log(str.slice(2, 5));
+
+
+// Задание 12.
+// Дана строка. Проверьте, начинается ли эта строка на 'http://'.
+
+// Решение 
+// let str = 'http://mysite.com';
+// console.log(str.startsWith('http://'));
+
+
+// Задание 13
+// Дана строка. Проверьте, заканчивается ли эта строка на '.html'.
+
+// Решение
+// let str = 'http://mysite.com/index.html';
+// console.log(str.endsWith('.html'));
