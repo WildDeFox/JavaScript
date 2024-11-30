@@ -52,5 +52,29 @@
 // Найдите минимальное и максимальное число.
 
 // Решение
-console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
-console.log(Math.max(4, -2, 5, 19, -130, 0, 10));
+// console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+// console.log(Math.max(4, -2, 5, 19, -130, 0, 10));
+
+
+// Задание 7. 
+// Выведите на экран случайное целое число от 1 до 100.
+
+// Решение
+// function getRandomInt(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// console.log(getRandomInt(1, 100));
+
+
+// Задание 8.
+// С помощью цикла заполните массив 10-ю случайными целыми числами.
+
+// Решение 
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+let arr = [];
+for (let i = 0; i < 10; i ++) {
+    arr.push(getRandomInt(1, 100));
+}
+document.write(arr);
