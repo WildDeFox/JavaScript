@@ -90,3 +90,17 @@
 // Задание 10
 // Дана строка 'JS'. Сделайте из нее строку 'js'.
 // console.log('JS'.toLowerCase());
+
+
+// Задание 11
+// Дана строка 'я учу javascript!'. 
+// Вырежьте из нее слово 'учу' и слово 'javascript' тремя разными способами (через substr, substring, slice).
+
+// Решение
+// строка.substr(откуда отрезать, [сколько символов отрезать]);
+// строка.substring(откуда начать отрезать, [докуда отрезать]);
+// строка.slice(откуда отрезать, [докуда отрезать]);
+let str = 'я учу javascript!';
+console.log(str.substr(2, 3));
+console.log(str.substring(2, 5));
+console.log(str.slice(2, 5));
