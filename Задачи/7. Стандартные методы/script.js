@@ -25,3 +25,23 @@
 //     sum = Math.pow(elem, 3);
 // }
 // console.log(Math.sqrt(sum));
+
+
+// Задание 4. 
+// Найдите квадратный корень из 379. 
+// Результат округлите до целых, до десятых, до сотых.
+
+// Решение
+// console.log(Math.sqrt(379).toFixed())
+// console.log(Math.sqrt(379).toFixed(1))
+// console.log(Math.sqrt(379).toFixed(2))
+
+
+// Задание 5.
+// Найдите квадратный корень из 587. 
+// Округлите результат в большую и меньшую стороны, 
+// запишите результаты округления в объект с ключами 'floor' и 'ceil'.
+
+// Решение
+// console.log(Math.floor(Math.sqrt(587)));
+// console.log(Math.ceil(Math.sqrt(587)));
