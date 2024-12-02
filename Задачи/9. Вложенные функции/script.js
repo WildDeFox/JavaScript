@@ -167,3 +167,43 @@
 //     };
 // }
 // console.log(func2()());
+
+
+// Задание 11.
+// Дан массив с числами. 
+// С помощью созданной нами функции each увеличьте каждый элемент в два раза.
+
+// Решение
+// function each (arr, callback) {
+//     let result = [];
+//     for (let elem of arr) {
+//         result.push(callback(elem));
+//     }
+//     return result;
+// }
+// let arr = [1, 2, 3, 4, 5];
+// console.log(each(arr, function(num) {
+//     return num * 2;
+// }));
+
+
+// Задание 12.
+// Дан массив со строками. 
+// С помощью созданной нами функции each переверните символы каждой строки в обратном порядке.
+
+// Решение
+// function each (arr, callback) {
+//     let result = [];
+//     for (let elem of arr) {
+//         result.push(callback(elem));
+//     }
+//     return result;
+// }
+// let arr_str = ['Привет', 'мир'];
+// console.log(each(arr_str, function(str) {
+//     let result = [];
+//     for (let i = str.length; i >= 0; i--) {
+//         result.push(str[i]);
+//     }
+//     return result.join('');
+// }))
