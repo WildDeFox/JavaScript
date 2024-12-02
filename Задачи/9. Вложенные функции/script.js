@@ -273,3 +273,16 @@
 // let func2 = test();
 // func2();
 // func2();
+
+
+// Задание 17.
+// Не подсматривая в мой код, самостоятельно реализуйте такой же счетчик.
+// let func = (function test(){
+//     let num = 1;
+//     return function() {
+//         console.log(num++)
+//     }
+// })();
+// func();
+// func();
+// func();
