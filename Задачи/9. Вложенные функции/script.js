@@ -107,3 +107,21 @@
 // }, function(num) {
 //     return num * num * num;
 // } ))
+
+
+// Задание 8.
+// Вызовите созданную вами функцию test, передав ей параметром массив с числами. 
+// Сделайте так, чтобы функция вернула массив с кубами этих чисел.
+
+// Решение
+// function test (arr, func) {
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = func(arr[i])
+//     }
+
+//     return arr;
+// }
+// let mrr = test([1, 2, 3, 4], function(num) {
+//     return num * num;
+// });
+// console.log(mrr);
