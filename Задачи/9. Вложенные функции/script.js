@@ -207,3 +207,17 @@
 //     }
 //     return result.join('');
 // }))
+
+
+// Задание 13.
+// Упростите коллбэк через стрелочную функцию.
+// let result = filter([1, 2, 3, 4, 5], function(elem) {
+// 	if (elem > 0) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// });
+
+// Решение
+// let result = filter([1, 2, 3, 4, 5], elem => elem > 0);
