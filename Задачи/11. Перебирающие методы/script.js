@@ -162,3 +162,34 @@
 //     }
 // });
 // console.log(newArr);
+
+
+// Задание 13.
+// Дан массив с числами. Проверьте то, что все элементы в массиве больше нуля.
+
+// Решение
+// let oldArr = [1, 2, 33, 4, 5];
+// let newArr = oldArr.every(elem => {
+//     if (elem > 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// })
+// console.log(newArr);
+
+
+// Задание 14.
+// Дан массив с числами. 
+// Проверьте то, что для всех элементов произведение их значений на их порядковый номер меньше 30.
+
+// Решение 
+// let arr = [1, 2, 3, 4];
+// let result = arr.every(function(elem, index) {
+//     if (elem * index < 30) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// });
+// console.log(result);
