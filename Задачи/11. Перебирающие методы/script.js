@@ -70,3 +70,15 @@
 //     return elem * index;
 // })
 // console.log(arr);
+
+
+// Задание 6.
+// Дан массив с числами. Используя метод forEach найдите сумму квадратов элементов этого массива. 
+
+// Решение 
+// let oldArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let sum = 0;
+// oldArr.forEach(function(elem) {
+//     sum += Math.pow(elem, 2);
+// }) 
+// console.log(oldArr);
