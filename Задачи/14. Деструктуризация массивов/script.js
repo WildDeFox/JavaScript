@@ -221,3 +221,40 @@
 //     console.log(department, name, surname, year, month, day);
 // }
 // func( 'development', ['John', 'Smit'], [2018, 12, 31] );
+
+
+// Задание 13.
+// Переделайте следующий код через деструктуризацию согласно изученной теории:
+// function func(options) {
+// 	let color  = options.color;
+// 	let width  = options.width;
+// 	let height = options.height;
+// }
+// func( {color: 'red', width: 400, height: 500} );
+
+// Решение
+// function func({color, width, height}) {
+//     console.log(color, width, height);
+// }
+// func( {color: 'red', width: 400, height: 500} );
+
+
+// Задание 14.
+// Переделайте следующий код через деструктуризацию согласно изученной теории:
+// function func(options) {
+// 	let width  = options.width;
+// 	let height = options.height;
+// 	let color;
+// 	if (options.color !== undefined) {
+// 		color = options.color;
+// 	} else {
+// 		color = 'black';
+// 	}
+// }
+// func( {color: 'red', width: 400, height: 500} );
+
+// Решение
+// function func({color = 'black', width, height}) {
+//     console.log(color, width, height);
+// }
+// func( {color: 'red', width: 400, height: 500} );
