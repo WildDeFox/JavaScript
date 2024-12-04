@@ -146,3 +146,78 @@
 // 	height: 500,
 // };
 // let {color: c = 'black', width: w, height: h} = options;
+
+
+// Задание 9.
+// Переделайте следующий код через деструктуризацию согласно изученной теории:
+// function func(employee) {
+// 	let name       = employee[0];
+// 	let surname    = employee[1];
+// 	let department = employee[2];
+// 	let position   = employee[3];
+// 	let salary     = employee[4];
+// }
+// func( ['John', 'Smit', 'development', 'programmer', 2000] );
+
+// Решение
+// function func([name, surname, department, position, salary]) {
+//     console.log(name, surname, department, position, salary);
+// }
+// func( ['John', 'Smit', 'development', 'programmer', 2000] );
+
+
+// Задание 10.
+// Переделайте следующий код через деструктуризацию согласно изученной теории:
+// function func(employee) {
+// 	let name     = employee[0];
+// 	let surname  = employee[1];
+// 	let info     = employee[2];
+// }
+// func( ['John', 'Smit', 'development', 'programmer', 2000] );
+
+// Решение
+// function func([name, surname, ...info]) {
+//     console.log(name, surname, info);
+// }
+// func( ['John', 'Smit', 'development', 'programmer', 2000] );
+
+
+// Задание 11.
+// function func(employee) {
+// 	let name       = employee[0];
+// 	let surname    = employee[1];
+// 	let department = employee[2];
+	
+// 	let position;
+// 	if (arr[3] !== undefined) {
+// 		position = arr[3];
+// 	} else {
+// 		position = 'джуниор';
+// 	}
+// }
+// func( ['John', 'Smit', 'development'] );
+
+// Решение
+// function func([name, surname, department, position = 'джуниор']) {
+//     console.log(name, surname, department, position);
+// }
+// func( ['John', 'Smit', 'development'] );
+
+
+// Задание 12.
+// Переделайте следующий код через деструктуризацию согласно изученной теории:
+// function func(department, employee, hired) {
+// 	let name     = employee[0];
+// 	let surname  = employee[1];
+	
+// 	let year  = hired[0];
+// 	let month = hired[1];
+// 	let day   = hired[2];
+// }
+// func( 'development', ['John', 'Smit'], [2018, 12, 31] );
+
+// Решение 
+// function func(department, [name, surname], [year, month, day]) {
+//     console.log(department, name, surname, year, month, day);
+// }
+// func( 'development', ['John', 'Smit'], [2018, 12, 31] );
