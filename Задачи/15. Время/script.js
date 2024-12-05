@@ -185,12 +185,30 @@
 // Определение високосного года
 
 // Решение
-function isLeap(year) {
-    let date = new Date(year, 2, 0);
-    if (date.getDate() == 29) {
-        return true;
-    } else {
-        return false;
-    }
-}
-console.log(isLeap(2024));
+// function isLeap(year) {
+//     let date = new Date(year, 2, 0);
+//     if (date.getDate() == 29) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(isLeap(2024));
+
+
+// Задание 18.
+// Сделайте функцию checkDate, которая будет выполнять описанную проверку. 
+// Пусть функция возвращает true, если дата корректна и false, если нет. 
+// Пример работы этой функции для 31 января и 32 января:
+
+// Решение
+// function checkDate([year, months, day]) {
+//     let date = new Date(year, months, day);
+//     if (date.getFullYear() == year && date.getMonth() == months && date.getDate() == day) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// console.log(checkDate(2025, 0, 31)); // выведет true
+// console.log(checkDate(2025, 0, 32)); // выведет false
