@@ -168,3 +168,14 @@
 // let date2 = new Date(2010, 2, 15);
 // let diff = date2 - date1;
 // console.log(diff * (1000 * 60 * 60 * 24 * 30) % 12);
+
+
+// Задание 16.
+// Нахождение последнего дня месяца
+
+// Решение
+// function lastDayMonth(year, months) {
+//     let date = new Date(year, months, 0);
+//     return date.getDate();
+// }
+// console.log(lastDayMonth(2024, 11));
