@@ -108,3 +108,22 @@
 // ];
 // let date = new Date();
 // console.log(months[date.getMonth()]);
+
+
+// Задание 10.
+// Узнайте, какой день недели был в ваш день рождения. 
+
+// Решение
+// let date = new Date(1998, 11, 24);
+// let day = date.getDay();
+// let days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 
+// 	'сб']; 
+// console.log(days[day]);
+
+
+// Задание 11.
+// Выведите на экран timestamp, соответствующий дате 1 января 2025 года. 
+
+// Решение
+let date = new Date(2025, 1, 1);
+console.log(date.getTime());
