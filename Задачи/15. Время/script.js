@@ -125,5 +125,16 @@
 // Выведите на экран timestamp, соответствующий дате 1 января 2025 года. 
 
 // Решение
-let date = new Date(2025, 1, 1);
-console.log(date.getTime());
+// let date = new Date(2025, 1, 1);
+// console.log(date.getTime());
+
+
+// Задание 12. 
+// Выведите на экран количество дней, прошедшее между 1 марта 1988 года и 10 января 2000 года. 
+
+// Решение
+// let date1 = new Date(1988, 3, 1);
+// let date2 = new Date(2000, 1, 10);
+
+// let diff = date2 - date1;
+// console.log(diff / (1000 * 60 * 60 * 24));
