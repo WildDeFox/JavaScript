@@ -54,3 +54,40 @@
 // Решение
 // let date = '2024-12-05';
 // console.log(date.split('-').reverse().join('.'));
+
+
+// Задание 6
+// Выведите на экран номер текущего дня недели. 
+
+// Решение
+// let date = new Date();
+// console.log(date.getDay());
+
+
+// Задание 7.
+// Определите, является ли текущий день недели выходным или рабочим днем. 
+
+// Решение
+// function isWorkDay() {
+//     let date = new Date();
+//     if (date.getDay() == 6 || date.getDay() == 0) {
+//         console.log('Поздравляю, сегодня выходной день!');
+//     } else {
+//         console.log('К сожалению, сегодня рабочий день...');
+//     }
+// }
+// isWorkDay();
+
+
+// Задание 8.
+// Определите сколько дней осталось до ближайшего воскресенья. 
+// function howWorkDay() {
+//     let date = new Date().getDay();
+//     let count = 0;
+//     while (date < 5 || date == 0) {
+//         count++;
+//         date++;
+//     }
+//     console.log(`До выходных осталось дней - ${count}`);
+// }
+// howWorkDay();
