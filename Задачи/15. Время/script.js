@@ -179,3 +179,18 @@
 //     return date.getDate();
 // }
 // console.log(lastDayMonth(2024, 11));
+
+
+// Задание 17.
+// Определение високосного года
+
+// Решение
+function isLeap(year) {
+    let date = new Date(year, 2, 0);
+    if (date.getDate() == 29) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isLeap(2024));
