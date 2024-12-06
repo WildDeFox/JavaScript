@@ -252,3 +252,35 @@
 // button.addEventListener('click', function() {
 //     [input1.value, input2.value] = [input2.value, input1.value];
 // })
+
+
+// Задание 19.
+// Дан инпут. По получению фокуса запишите в него число 1, а по потери фокуса - число 2. 
+
+// Решение
+// let input = document.querySelector('#input1');
+// input.addEventListener('focus', function() {
+//     input.value = 1;
+// });
+// input.addEventListener('blur', function() {
+//     input.value = 2;
+// })
+
+
+// Здание 20.
+// Дан инпут. Пусть в него вводится число. По потери фокуса выведите на экран квадрат этого числа. 
+
+// Решение
+// let input = document.querySelector('#input1');
+// input.addEventListener('blur', function() {
+//     alert(Number(input.value) * Number(input.value));
+// })
+
+
+// Здание 21.
+// Дан инпут, в котором изначально есть какой-то текст. 
+// По получению фокуса инпутом очистите содержимое этого инпута.
+let input = document.querySelector('#input1');
+input.addEventListener('focus', function() {
+    input.value = '';
+}) 
