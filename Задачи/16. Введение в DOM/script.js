@@ -304,9 +304,35 @@
 // Дан див:
 // <div id="elem"></div>
 // Дана также кнопка. По нажатию на кнопку запишите в атрибут class нашего дива какой-нибудь класс. 
-let elem = document.querySelector('#elem');
-let button = document.querySelector('#button');
-button.addEventListener('click', function() {
-    elem.className = 'test1 test2';
-    console.log(elem.className);
-})
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     elem.className = 'test1 test2';
+//     console.log(elem.className);
+// })
+
+
+// Задание 24.
+// Дан инпут. По получению фокуса этим инпутом запишите в него число 1, 
+// а по потери фокуса - число 2. 
+// Для обращения у инпуту внутри функции-обработчика используйте объект this.
+
+// Решение
+// let input = document.querySelector('#input');
+// input.addEventListener('focus', function() {
+//     this.value = '1';
+// });
+// input.addEventListener('blur', function() {
+//     this.value = '2';
+// });
+
+
+// Задание 25.
+// Дана кнопка, значением которой служит число 1. 
+// Сделайте так, чтобы по клику на эту кнопку ее значение каждый раз увеличивалось на единицу.
+
+// Решение
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     this.textContent = Number(this.textContent) + 1; 
+// });
