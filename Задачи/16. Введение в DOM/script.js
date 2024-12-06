@@ -77,3 +77,53 @@
 // elem3.addEventListener('click', func);
 // elem4.addEventListener('click', func);
 // elem5.addEventListener('click', func);
+
+
+// Задание 5.
+// Дан абзац и кнопка. По клику на кнопку прочитайте текст абзаца и выведите его в консоль. 
+
+// Решение
+// let button = document.querySelector('#button');
+// let elem = document.querySelector('#elem');
+// button.addEventListener('click', function() {
+//     console.log(elem.textContent);
+// })
+
+
+// Здание 6.
+// Дан абзац и кнопка. По клику на кнопку запишите в абзац новый текст. 
+
+// Решение
+// let button = document.querySelector('#button');
+// let elem = document.querySelector('#elem');
+// button.addEventListener('click', function() {
+//     elem.textContent = 'Ооо, дааа, новый текст!';
+// })
+
+
+// Задание 7.
+// Даны два абзаца, содержащие своим текстом какие-то числа, и кнопка. 
+// По нажатию на кнопку выведите на экран сумму хранящихся чисел. 
+
+// Решение
+// let elem1 = document.querySelector('#elem1');
+// let elem2 = document.querySelector('#elem2');
+// let elem3 = document.querySelector('#elem3')
+// let button = document.querySelector('#button');
+
+// button.addEventListener('click', function() {
+//     elem3.textContent = Number(elem1.textContent) + Number(elem2.textContent);
+// })
+
+
+// Задание 8.
+// Дан абзац с числом и кнопка. 
+// По нажатию на кнопку прибавьте к значению абзаца единицу и запишите полученное число обратно. 
+
+// Решение 
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+
+// button.addEventListener('click', function() {
+//     elem.textContent = Number(elem.textContent) + 1;
+// })
