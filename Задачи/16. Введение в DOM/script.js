@@ -144,8 +144,60 @@
 // let elem = document.querySelector('#elem');
 // let button = document.querySelector('#button');
 
-
 // Решение
 // button.addEventListener('click', function() {
 //     elem.innerHTML = '<b>Новый текст, сновай...</b>'
+// })
+
+
+// Задание 11.
+// Дан следующий инпут:
+// <input id="elem" type="email">
+// Дана также кнопка. По нажатию на кнопку выведите на экран содержимое атрибута type указанного выше инпута. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     console.log(elem.type);
+// })
+
+
+// Задание 12.
+//  Дан следующий инпут:
+//  <input id="elem" type="email"
+// Дана также кнопка. По нажатию на кнопку запишите в атрибут type значение submit.
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     elem.type = 'submit';
+// })
+
+
+// Задание 13.
+// Пусть у вас есть ссылка в виде тега a, кнопка и абзац. 
+// По нажатию на кнопку выведите в абзац содержимое атрибута href ссылки. 
+
+
+// Решение
+// let link = document.querySelector('#link');
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     elem.textContent = link.href;
+// })
+
+
+// Задание 14.
+// Пусть у вас есть ссылка и кнопка. 
+// По нажатию на кнопку добавьте в конец текста ссылки содержимое ее атрибута href в круглых скобках. 
+
+// Решение 
+// let link = document.querySelector('#link');
+// let button = document.querySelector('#button');
+
+// button.addEventListener('click', function() {
+//     link.textContent += `(${link.href})`;
 // })
