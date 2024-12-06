@@ -123,7 +123,29 @@
 // Решение 
 // let elem = document.querySelector('#elem');
 // let button = document.querySelector('#button');
-
 // button.addEventListener('click', function() {
 //     elem.textContent = Number(elem.textContent) + 1;
+// })
+
+
+// Задание 9.
+// Дан абзац и кнопка. По клику на кнопку прочитайте HTML код абзаца и выведите его в консоль.
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function(){
+//     console.log(elem.innerHTML);
+// })
+
+
+// Задание 10.
+// Дан абзац и кнопка. По клику на кнопку запишите в абзац новый текст так, чтобы он был жирным. 
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+
+
+// Решение
+// button.addEventListener('click', function() {
+//     elem.innerHTML = '<b>Новый текст, сновай...</b>'
 // })
