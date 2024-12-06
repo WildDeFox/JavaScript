@@ -280,7 +280,33 @@
 // Здание 21.
 // Дан инпут, в котором изначально есть какой-то текст. 
 // По получению фокуса инпутом очистите содержимое этого инпута.
-let input = document.querySelector('#input1');
-input.addEventListener('focus', function() {
-    input.value = '';
-}) 
+// let input = document.querySelector('#input1');
+// input.addEventListener('focus', function() {
+//     input.value = '';
+// }) 
+
+
+// Задание 22.
+//  Дан див:
+// <div id="elem" class="content no-gap"></div>
+// Дана также кнопка. По нажатию на кнопку прочитайте и 
+// выведите на экран значение атрибута class нашего дива.
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     console.log(elem.className);
+// })
+
+
+// Задание 23.
+// Дан див:
+// <div id="elem"></div>
+// Дана также кнопка. По нажатию на кнопку запишите в атрибут class нашего дива какой-нибудь класс. 
+let elem = document.querySelector('#elem');
+let button = document.querySelector('#button');
+button.addEventListener('click', function() {
+    elem.className = 'test1 test2';
+    console.log(elem.className);
+})
