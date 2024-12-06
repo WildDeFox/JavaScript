@@ -201,3 +201,54 @@
 // button.addEventListener('click', function() {
 //     link.textContent += `(${link.href})`;
 // })
+
+
+// Задание 15.
+// Дан инпут и кнопка. По нажатию на кнопку запишите в инпут какой-нибудь текст. 
+
+// Решение
+// let input = document.querySelector('#input');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     input.value = 'Снова новый текст';
+// })
+
+
+// Задание 16.
+// Дан инпут, абзац и кнопка. По нажатию на кнопку запишите в абзац текст из инпута. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button');
+// let input = document.querySelector('#input');
+// button.addEventListener('click', function() {
+//     elem.textContent = input.value;
+// })
+
+
+// Задание 17.
+// Даны два инпута и кнопка. 
+// В первый инпут пользователем вводится число. 
+// По нажатию на кнопку запишите во второй инпут квадрат введенного числа. 
+
+// Решение
+// let input1 = document.querySelector('#input1');
+// let input2 = document.querySelector('#input2');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     input2.value = Math.sqrt(Number(input1.value));
+// })
+
+
+// Задание 18.
+// Даны два инпута и кнопка. 
+// По нажатию на кнопку запишите в первый инпут значение второго инпута, а во второй инпут - значение первого. 
+// Ваш код должен работать универсально, для любых значений инпутов. 
+
+// Решение
+// let input1 = document.querySelector('#input1');
+// let input2 = document.querySelector('#input2');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     [input1.value, input2.value] = [input2.value, input1.value];
+// })
