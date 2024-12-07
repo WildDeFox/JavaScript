@@ -413,3 +413,35 @@
 //     });
 //     elem.textContent = sum;
 // })
+
+
+// Задание 31.
+// Дана следующая функция:
+// function func() {
+// 	this.value = Number(this.value) + 1;
+// }
+// Даны также инпуты. Сделайте так, 
+// чтобы по потери фокуса в любом из наших инпутов выполнялась приведенная выше функция.
+
+// Решение
+// function func() {
+// 	this.value = Number(this.value) + 1;
+// }
+// let inputs = document.querySelectorAll('input');
+// for (let input of inputs) {
+//     input.addEventListener('blur', func)
+// }
+
+
+// Задание 32.
+// Даны абзацы с числами. 
+// Сделайте так, чтобы по клику на любой абзац его число в нем возводилось в квадрат.
+
+// Решение
+// function func() {
+//     this.textContent = Number(this.textContent) * Number(this.textContent);
+// }
+// let paragraphs = document.querySelectorAll('p');
+// for (let paragraph of paragraphs) {
+//     paragraph.addEventListener('click', func);
+// }
