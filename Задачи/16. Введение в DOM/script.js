@@ -445,3 +445,35 @@
 // for (let paragraph of paragraphs) {
 //     paragraph.addEventListener('click', func);
 // }
+
+
+// Задание 33.
+// Дана ссылка и кнопка. 
+// По нажатию на кнопку добавьте в конец текста ссылки содержимое 
+// ее атрибута href в круглых скобках. 
+// Сделайте так, чтобы это добавление происходило лишь по первому нажатию.
+
+// Решение
+// let link = document.querySelector('#link');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function func() {
+//     link.textContent = link.textContent + link.href;
+//     this.removeEventListener('click', func);
+// })
+
+
+// Задание 34.
+// Дана кнопка, значением которой служит число 1. 
+// Сделайте так, чтобы по клику на эту кнопку ее значение каждый раз увеличивалось на единицу. 
+// После того, как значение кнопки достигнет 10 - отвяжите обработчик события, 
+// чтобы кнопка больше не реагировала на нажатие.
+
+// Решение
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function func() {
+//     if (Number(button.textContent) < 10) {
+//         button.textContent = Number(button.textContent) + 1;
+//     } else {
+//         this.removeEventListener('click', func);
+//     }
+// })
