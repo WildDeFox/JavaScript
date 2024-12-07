@@ -492,3 +492,21 @@
 // for(let paragraph of paragraphs) {
 //     paragraph.addEventListener('click', func);
 // }
+
+
+// Задание 36.
+// Дан список ul, в каждом пункте которого записано число. 
+// Сделайте так, чтобы по клику на любую li ее число увеличивалось на единицу.
+
+// Решение
+// let lis = document.querySelectorAll('li');
+// for (let li of lis) {
+//     li.addEventListener('click', function func() {
+//         let num = Number(this.textContent);
+//         if (num < 10) {
+//             this.textContent = num + 1;
+//         } else {
+//             this.removeEventListener('click', func);
+//         }
+//     })
+// }
