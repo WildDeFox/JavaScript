@@ -370,3 +370,46 @@
 // input1.addEventListener('blur', func);
 // input2.addEventListener('blur', func);
 // input3.addEventListener('blur', func);
+
+
+// Задание 28.
+// Даны абзацы и кнопка. 
+// По нажатию на кнопку найдите все абзацы, 
+// переберите их циклом и установите текст каждого абзаца в значение 'text'.
+
+// Решение
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     for (let elem of document.querySelectorAll('p')) {
+//         elem.textContent = 'text'
+//     }
+// })
+
+
+// Задание 29.
+// Даны абзацы с текстом и кнопка. 
+// По нажатию на кнопку запишите в конец текста каждого абзаца его порядковый номер.
+
+// Решение
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     document.querySelectorAll('p').forEach(function(elem, index) {
+//         elem.textContent = elem.textContent + index;
+//     })
+// })
+
+
+// Задание 30.
+// Даны инпуты с числами, абзац и кнопка. 
+// По нажатию на кнопку найдите сумму чисел из инпутов и запишите эту сумму в текст абзаца.
+
+// Решение
+// let elem = document.querySelector('#elem1');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     let sum = 0;
+//     document.querySelectorAll('input').forEach(function(input){
+//         sum += Number(input.value);
+//     });
+//     elem.textContent = sum;
+// })
