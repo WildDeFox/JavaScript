@@ -477,3 +477,18 @@
 //         this.removeEventListener('click', func);
 //     }
 // })
+
+
+// Задание 35.
+// Даны абзацы. По нажатию на любой из абзацев добавьте ему в конец восклицательный знак. 
+// Сделайте так, чтобы это добавление происходило лишь по первому нажатию.
+
+// Решение
+// let paragraphs = document.querySelectorAll('p');
+// function func () {
+//     this.textContent = this.textContent + '!';
+//     this.removeEventListener('click', func);
+// }
+// for(let paragraph of paragraphs) {
+//     paragraph.addEventListener('click', func);
+// }
