@@ -26,3 +26,11 @@
 // Решение
 // let input = document.querySelector('#input');
 // input.setAttribute('class', 'valid');
+
+
+// Задание 5.
+// Удалите у него атрибут value.
+
+// Решение
+// let input = document.querySelector('#input');
+// input.removeAttribute('value');
