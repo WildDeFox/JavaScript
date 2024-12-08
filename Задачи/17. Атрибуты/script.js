@@ -94,3 +94,11 @@
 //         console.log("Все ок!")
 //     }
 // })
+
+
+// Сделайте так, чтобы по клику на див в конец его текста добавлялась стоимость покупки, 
+// равная цене, умноженной на количество.
+// let div = document.querySelector('#div');
+// div.addEventListener('click', function() {
+//     this.textContent = this.textContent + (Number(this.dataset.productPrice) * Number(this.dataset.productAmount));
+// })
