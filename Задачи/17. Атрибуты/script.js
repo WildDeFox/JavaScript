@@ -42,3 +42,55 @@
 // console.log(input.hasAttribute('value'));
 
 
+// Задание 7.
+// Сделайте так, чтобы по клику на див в конец его текста добавилось содержимое его атрибута data-text.
+
+// Решение
+// let div = document.querySelector('#div');
+// div.addEventListener('click', function(){
+//     this.textContent = this.textContent + this.dataset.text;
+// })
+
+
+// Задание 8.
+// Сделайте так, чтобы по клику на любой из дивов ему в конец записывался его порядковый номер.
+
+// Решение
+// let divs = document.querySelectorAll('div');
+// for (let div of divs) {
+//     div.addEventListener('click', function() {
+//         this.textContent = this.textContent + this.dataset.num;
+//     })
+// }
+
+
+// Задание 9.
+// Дана кнопка. Сделайте так, чтобы эта кнопка считала количество кликов по ней, 
+// записывая их в какой-нибудь пользовательский атрибут. 
+// Пусть по клику на другую кнопку на экран выводится, сколько кликов было сделано по первой кнопке.
+
+// Решение
+// let button1 = document.querySelector('#button1');
+// let button2 = document.querySelector('#button2');
+// button1.addEventListener('click', function() {
+//     this.dataset.count = Number(this.dataset.count) + 1;
+// })
+// button2.addEventListener('click', function() {
+//     this.textContent = button1.dataset.count;
+// })
+
+
+// Задание 10.
+// В этом инпуте атрибуты data-min и data-max содержат диапазон. 
+// Сделайте так, чтобы по потери фокуса, 
+// если количество введенных символов не попадает в этот диапазон, выводилось сообщение об этом.
+
+// Решение
+// let input = document.querySelector('#input');
+// input.addEventListener('blur', function() {
+//     if (this.value.length < this.dataset.min || this.value.length > this.dataset.max ) {
+//         console.log("Текущая строка не подходит под требование");
+//     } else {
+//         console.log("Все ок!")
+//     }
+// })
