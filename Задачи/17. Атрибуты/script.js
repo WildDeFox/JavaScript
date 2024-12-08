@@ -102,3 +102,14 @@
 // div.addEventListener('click', function() {
 //     this.textContent = this.textContent + (Number(this.dataset.productPrice) * Number(this.dataset.productAmount));
 // })
+
+
+// Задание 12.
+// Даны абзацы. Переберите их циклом и каждому абзацу в атрибут data-num запишите порядковый номер этого абзаца. 
+// Используйте метод setAttribute.
+
+// Решение
+// let paragraphs = document.querySelectorAll('p');
+// paragraphs.forEach(function (elem, index) {
+//     elem.setAttribute('data-num', index);
+// })
