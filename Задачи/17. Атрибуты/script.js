@@ -34,3 +34,11 @@
 // Решение
 // let input = document.querySelector('#input');
 // input.removeAttribute('value');
+
+
+// Задание 6.
+// Проверьте наличие у него атрибута value.
+// let input = document.querySelector('#input');
+// console.log(input.hasAttribute('value'));
+
+
