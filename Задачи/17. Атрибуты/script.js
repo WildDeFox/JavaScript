@@ -151,3 +151,11 @@
 // elem.classList.remove('www');
 // elem.classList.remove('zzz');
 // console.log(elem.classList)
+
+
+// Задание 17.
+// Проверьте наличие у него класса ggg.
+
+// Решение
+let elem = document.querySelector('#elem');
+console.log(elem.classList.contains('ggg'));
