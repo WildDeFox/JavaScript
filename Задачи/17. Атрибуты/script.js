@@ -132,3 +132,12 @@
 // for (let item of elemClasses) {
 //     console.log(item);
 // }
+
+
+// Задание 15
+// Добавьте ему класс xxx. 
+
+// Решение
+let elem = document.querySelector('#elem');
+elem.classList.add('xxx');
+console.log(elem.classList);
