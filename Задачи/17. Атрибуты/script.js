@@ -157,5 +157,13 @@
 // Проверьте наличие у него класса ggg.
 
 // Решение
-let elem = document.querySelector('#elem');
-console.log(elem.classList.contains('ggg'));
+// let elem = document.querySelector('#elem');
+// console.log(elem.classList.contains('ggg'));
+
+
+// Задание 18.
+// Дан элемент. Добавьте ему класс www, если его нет и удалите - если есть. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// elem.classList.toggle('www');
