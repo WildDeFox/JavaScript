@@ -22,3 +22,11 @@
 // for (let elem of elems) {
 //     elem.textContent = elem.textContent + '!';
 // }
+
+
+// Задание 4.
+// Найдите его родителя и задайте ему красную границу.
+
+// Решение
+// let elem = document.querySelector('#elem');
+// elem.parentElement.style.border = '1px solid red';
