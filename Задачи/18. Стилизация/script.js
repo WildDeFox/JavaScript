@@ -23,3 +23,24 @@
 //     div.style.borderTop = '1px solid black';
 //     div.style.backgroundColor = 'red';
 // })
+
+
+// Задание 3.
+// Дан абзац. Даны кнопки 'перечеркнуть', 'сделать жирным', 'сделать красным'. 
+// Пусть по нажатию на каждую кнопку заданное действие происходит с абзацем (становится красным, например).
+// let paragraph = document.querySelector('#elem');
+// let button1 = document.querySelector('#button1');
+// let button2 = document.querySelector('#button2');
+// let button3 = document.querySelector('#button3');
+// button1.addEventListener('click', function() {
+//     paragraph.classList = ''
+//     paragraph.classList.add('cross');
+// });
+// button2.addEventListener('click', function() {
+//     paragraph.classList = '';
+//     paragraph.classList.add('fat');
+// });
+// button3.addEventListener('click', function() {
+//     paragraph.classList = '';
+//     paragraph.classList.add('reda');
+// })
