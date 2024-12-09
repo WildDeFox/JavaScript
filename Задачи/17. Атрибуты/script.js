@@ -138,6 +138,16 @@
 // Добавьте ему класс xxx. 
 
 // Решение
-let elem = document.querySelector('#elem');
-elem.classList.add('xxx');
-console.log(elem.classList);
+// let elem = document.querySelector('#elem');
+// elem.classList.add('xxx');
+// console.log(elem.classList);
+
+
+// Задание 16.
+// Удалите у него класс www и класс zzz. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// elem.classList.remove('www');
+// elem.classList.remove('zzz');
+// console.log(elem.classList)
