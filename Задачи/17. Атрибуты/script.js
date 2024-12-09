@@ -113,3 +113,22 @@
 // paragraphs.forEach(function (elem, index) {
 //     elem.setAttribute('data-num', index);
 // })
+
+
+// Задание 13. 
+// Узнайте количество его классов. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// console.log(elem.classList);
+
+
+// Задание 14.
+// Переберите в цикле его классы. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let elemClasses = elem.classList;
+// for (let item of elemClasses) {
+//     console.log(item);
+// }
