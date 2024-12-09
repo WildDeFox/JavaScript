@@ -30,3 +30,21 @@
 // Решение
 // let elem = document.querySelector('#elem');
 // elem.parentElement.style.border = '1px solid red';
+
+
+// Задание 5.
+// Найдите ближайшего родителя этого элемента, являющегося тегом div.
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let parents = elem.closest('div');
+// console.log(parents);
+
+
+// Задание 6.
+// Найдите ближайшего родителя этого элемента, являющегося элементом с классом www.
+
+// Решение
+// let elem = document.querySelector('#elem');
+// let parents = elem.closest('.www');
+// console.log(parents);
