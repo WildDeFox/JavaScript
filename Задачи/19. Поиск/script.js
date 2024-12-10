@@ -79,3 +79,11 @@
 // Поменяйте местами текст его соседа сверху и текст его соседа снизу. 
 // let elem = document.querySelector('#elem');
 // [elem.previousElementSibling.textContent, elem.nextElementSibling.textContent] = [elem.nextElementSibling.textContent, elem.previousElementSibling.textContent];
+
+
+// Задание 11.
+// Получите этот элемент с помощью метода getElementById и установите ему какой-нибудь текст. 
+
+// Решение
+// let elem = document.getElementById('elem');
+// elem.textContent = 'Hello World';
