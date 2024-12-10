@@ -107,3 +107,15 @@
 // for (let elem of elems) {
 //     elem.style.color = 'red';
 // }
+
+
+// Задание 14.
+// Найдите внутри родителя элементы с классом www и запишите их в переменную elems1. 
+// Затем найдите внутри родителя элементы с классом ggg и запишите их в переменную elems2. 
+
+// Решение
+let parent = document.querySelector('#parent');
+let elems1 = parent.querySelectorAll('.www');
+let elems2 = parent.querySelectorAll('.ggg');
+console.log(elems1);
+console.log(elems2);
