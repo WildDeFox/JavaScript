@@ -37,3 +37,34 @@
 // let input = document.querySelector('#input')
 // let button = document.querySelector('#button1');
 // button.addEventListener('click', () => console.log(input.disabled));
+
+
+// Задание 5.
+// Дан чекбокс и две кнопки. 
+// По нажатию на первую кнопку установите чекбокс в отмеченное состояние, 
+// а по нажатию на вторую - в неотмеченное.
+
+// let check = document.querySelector('#check');
+// let button1 = document.querySelector('#button1');
+// let button2 = document.querySelector('#button2');
+
+// button1.addEventListener('click', () => check.checked = true);
+// button2.addEventListener('click', () => check.checked = false);
+
+
+// Задание 6.
+// Дан чекбокс, кнопка и абзац. 
+// По нажатию на кнопку, если чекбокс отмечен, выведите в абзац слово 'привет', 
+// а если чекбокс не отмечен, то слово 'пока'.
+
+// let check = document.querySelector('#check');
+// let button1 = document.querySelector('#button1');
+// let elem = document.querySelector('#elem');
+
+// button1.addEventListener('click', () => {
+//     if (check.checked) {
+//         elem.textContent = 'Привет';
+//     } else {
+//         elem.textContent = 'Пока'
+//     }
+// })
