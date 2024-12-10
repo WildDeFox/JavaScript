@@ -48,3 +48,34 @@
 // let elem = document.querySelector('#elem');
 // let parents = elem.closest('.www');
 // console.log(parents);
+
+
+// Задание 7.
+// Найдите его соседа сверху и добавьте ему в конец текст '!'. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// elem.previousElementSibling.textContent += '!';
+
+
+// Задание 8.
+// Найдите его соседа снизу и добавьте ему в конец текст '!'. 
+
+// Решение 
+// let elem = document.querySelector('#elem');
+// elem.nextElementSibling.textContent += '!';
+
+
+// Задание 9.
+// Найдите его соседа снизу его соседа снизу (следующий элемент за соседним) и добавьте ему в конец текст '!'. 
+
+// Решение
+// let elem = document.querySelector('#elem');
+// elem.previousElementSibling.textContent += '!';
+// elem.nextElementSibling.textContent += '!';
+
+
+// Задание 10.
+// Поменяйте местами текст его соседа сверху и текст его соседа снизу. 
+// let elem = document.querySelector('#elem');
+// [elem.previousElementSibling.textContent, elem.nextElementSibling.textContent] = [elem.nextElementSibling.textContent, elem.previousElementSibling.textContent];
