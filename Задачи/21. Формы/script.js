@@ -79,3 +79,20 @@
 // button.addEventListener('click', () => {
 //     check.disabled = !check.disabled;
 // })
+
+
+// Задание 8.
+// Даны 3 радиокнопки, абзац и кнопка. 
+// По клику на кнопку выведите в абзац value отмеченной радиокнопки.
+
+// let radios = document.querySelectorAll('input[type="radio"]');
+// let elem = document.querySelector('#elem');
+// let button = document.querySelector('#button1');
+
+// button.addEventListener('click', () => {
+//     for(let radio of radios) {
+//         if (radio.checked) {
+//             elem.textContent = radio.value;
+//         }
+//     }
+// })
