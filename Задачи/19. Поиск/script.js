@@ -97,3 +97,13 @@
 // for (let li of lis) {
 //     li.style.color = 'red';
 // }
+
+
+// Задание 13.
+// Получите эти элементы по имени класса и сделайте их текст красного цвета. 
+
+// Решение
+// let elems = document.getElementsByClassName('www');
+// for (let elem of elems) {
+//     elem.style.color = 'red';
+// }
