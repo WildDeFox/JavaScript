@@ -87,3 +87,13 @@
 // Решение
 // let elem = document.getElementById('elem');
 // elem.textContent = 'Hello World';
+
+
+// Задание 12.
+// Получите все теги li по имени тега и сделайте их текст красного цвета. 
+
+// Решение
+// let lis = document.getElementsByTagName('li');
+// for (let li of lis) {
+//     li.style.color = 'red';
+// }
