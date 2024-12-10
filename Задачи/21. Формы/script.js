@@ -68,3 +68,14 @@
 //         elem.textContent = 'Пока'
 //     }
 // })
+
+
+// Задание 7.
+// Дан чекбокс и кнопка. Сделайте так, чтобы каждый клик по кнопке приводил к смене состояния чекбокса.
+
+// let check = document.querySelector('#check');
+// let button = document.querySelector('#button1');
+
+// button.addEventListener('click', () => {
+//     check.disabled = !check.disabled;
+// })
