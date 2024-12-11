@@ -58,3 +58,23 @@
 //         this.text = this.text + ' ?';
 //     }
 // }
+
+
+// Задание 7.
+// Дан селект и кнопка. По нажатию на кнопку выведите на экран текст отмеченного пункта списка.
+
+// let select = document.querySelector('#select');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     alert(select[select.selectedIndex]);
+// })
+
+
+// Задание 8
+// Дан селект и кнопка. По нажатию на кнопку добавьте в конец текста выбранного пункта восклицательный знак.
+
+// let select = document.querySelector('#select');
+// let button = document.querySelector('#button');
+// button.addEventListener('click', function() {
+//     select[select.selectedIndex].text = select[select.selectedIndex].text + '!';
+// })
