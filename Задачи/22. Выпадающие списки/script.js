@@ -13,9 +13,16 @@
 // Сделайте выпадающий список с названиями дней недели. 
 // В качестве атрибутов value пунктов списка добавьте номера дней недели от 1 до 7. 
 // По изменению списка выведите на экран сообщение о том, выбран выходной день или рабочий.
-let select = document.querySelector('#select');
-let elem = document.querySelector('#elem');
+// let select = document.querySelector('#select');
+// let elem = document.querySelector('#elem');
 
-select.addEventListener('change', function() {
-    elem.textContent = this.value;
-})
+// select.addEventListener('change', function() {
+//     elem.textContent = this.value;
+// })
+
+
+// Задание 3.
+// Сделайте выпадающий список с названиями месяцев. 
+// Сделайте так, чтобы JavaScript по умолчанию выбирал в этом списке текущий месяц.
+// let select = document.querySelector('#select');
+// select.value = new Date().getMonth();
