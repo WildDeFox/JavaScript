@@ -96,3 +96,36 @@
 //         }
 //     }
 // })
+
+
+// Задание 9.
+// Дан инпут и абзац. По изменению инпута выведите его текст в абзац.
+
+// let input = document.querySelector('#input');
+// let elem = document.querySelector('#elem');
+// input.addEventListener('change', () => {
+//     elem.textContent = input.value;
+// })
+
+
+// Задание 10.
+// Дан чекбокс. По изменению чебокса выведите на экран его новое состояние. 
+
+// let check = document.querySelector('#check');
+// check.addEventListener('change', () => {
+//     console.log(check.checked);
+// })
+
+
+// Задание 11.
+// Дан инпут. По его изменению проверьте, количество символов в нем меньше 5-ти или нет. 
+// Если меньше - покрасьте границу инпута в зеленый цвет, а если больше - в красный. 
+
+// let input = document.querySelector('#input');
+// input.addEventListener('change', () => {
+//     if (this.value.length < 5) {
+//         input.style.border = '1px solid green';
+//     } else {
+//         input.style.border = '1px solid red';
+//     }
+// })
