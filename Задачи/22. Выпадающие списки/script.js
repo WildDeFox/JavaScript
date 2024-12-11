@@ -37,3 +37,11 @@
 // input.addEventListener('blur', function() {
 //     select.selectedIndex = Number(input.value);
 // })
+
+
+// Задание 5.
+// Переберите все пункты списка циклом и в конец текста каждого пункта добавьте значение его атрибута value.
+// let options = document.querySelector('#select');
+// for(let option of options) {
+//     option.textContent = option.textContent + option.value;
+// }
