@@ -26,3 +26,14 @@
 // Сделайте так, чтобы JavaScript по умолчанию выбирал в этом списке текущий месяц.
 // let select = document.querySelector('#select');
 // select.value = new Date().getMonth();
+
+
+// Задание 4.
+// Дан инпут и селект. В инпут вводится какое-то число. 
+// По потери фокуса сделайте выделенным пункт списка, номер которого равен значению из инпута.
+
+// let input = document.querySelector('#input');
+// let select = document.querySelector('#select');
+// input.addEventListener('blur', function() {
+//     select.selectedIndex = Number(input.value);
+// })
