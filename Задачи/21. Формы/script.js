@@ -129,3 +129,33 @@
 //         input.style.border = '1px solid red';
 //     }
 // })
+
+
+// Задание 12.
+// Дан инпут. Пусть в него вводится текст. 
+// Как только длина текста достигнет 5-ти, выведите на экран сообщение об этом. 
+
+// let input = document.querySelector('#input');
+// input.addEventListener('input', () => {
+//     if (input.value.length > 5) {
+//         alert('Все, хватит.');
+//     }
+// })
+
+
+// Задание 13.
+// Дан инпут. Пусть в него разрешено ввести 5 символов. Дан также абзац. 
+// По мере ввода символов в инпут пишите, сколько еще символов можно ввести. 
+// Когда количество символов превысит 5-ти, то в абзац выводите то, на сколько символов превышена длина текста. 
+
+// let elem = document.querySelector('#elem');
+// let input = document.querySelector('#input');
+
+// input.addEventListener('input', () => {
+//     if (input.value.length <= 5) {
+//         let diff = 5 - Number(input.value.length);
+//         elem.textContent = `Осталось ввести ${diff} символа.`
+//     } else {
+//         elem.textContent = `Размер текста привышает: ${input.value.length - 5} символов`;
+//     }
+// })
