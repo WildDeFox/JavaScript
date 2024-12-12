@@ -142,3 +142,18 @@
 // parent.addEventListener('click', function() {
 // 	block.classList.remove('active');
 // });
+
+
+// Задание 13.
+// let list = document.querySelector('#list');
+// let button = document.querySelector('#button');
+
+// button.addEventListener('click', function() {
+//     let item = document.createElement('li');
+//     item.textContent = 'item';
+//     list.appendChild(item);
+// })
+
+// list.addEventListener('click', function(event) {
+//     event.target.textContent = event.target.textContent + '!';
+// })
