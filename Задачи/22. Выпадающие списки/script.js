@@ -104,3 +104,41 @@
 //     event.preventDefault();
 //     elem.textContent = Number(input1.value) + Number(input2.value);
 // })
+
+
+// Задание 11.
+// Навешайте на див обработчик клика. 
+// В этом обработчике определите, в каком из тегов сработало событие.
+// Сделайте так, чтобы при клике на li, ей в конец добавлялся восклицательный знак
+
+// let div = document.querySelector('div');
+// div.addEventListener('click', function(event) {
+//     if (event.target.matches('div')) {
+//         alert('Клик по DIV');
+//     }
+
+//     if (event.target.matches('ul')) {
+//         alert('Клик по списку');
+//     }
+
+//     if (event.target.matches('li')) {
+//         alert('Клик по элементу списка');
+//         event.target.textContent = event.target.textContent + '!';
+//     }
+// })
+
+
+// Задание 12
+// Реализовать прекращение всплытия
+// let parent = document.querySelector('#parent');
+// let button = document.querySelector('button');
+// let block  = document.querySelector('#block');
+
+// button.addEventListener('click', function(event) {
+// 	block.classList.add('active');
+//     event.stopPropagation();
+// });
+
+// parent.addEventListener('click', function() {
+// 	block.classList.remove('active');
+// });
