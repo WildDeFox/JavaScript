@@ -50,3 +50,28 @@
 //       event.target.textContent += '!';
 //     }
 // }) 
+
+
+// Задание 5.
+// Сделайте инпут, который будет по вводу выводить значения введенных клавиш и их коды. 
+// let input = document.querySelector('#input');
+
+// input.addEventListener('keypress', function(event){
+//     this.value = `${event.key} : ${event.code}`;
+// })
+
+
+// Задание 6.
+// Дан абзац и инпут. В него вводится текст и нажимается клавиша Enter. 
+// Сделайте так, чтобы в этот момент введенный текст попадал в абзац под инпутом, 
+// а содержимое инпута очищалось. 
+// let elem = document.querySelector('#elem');
+// let input = document.querySelector('#input');
+
+// input.addEventListener('click', function(event) {
+//     if (event.code == 'Enter') {
+//         elem.textContent = input.value;
+//         input.value = '';
+//         this.blur();
+//     }
+// })
