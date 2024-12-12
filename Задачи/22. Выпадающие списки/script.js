@@ -78,3 +78,29 @@
 // button.addEventListener('click', function() {
 //     select[select.selectedIndex].text = select[select.selectedIndex].text + '!';
 // })
+
+
+// Задание 9.
+// Даны ссылки. Сделайте так, чтобы по клику на ссылку ей в конец записывался ее href, а перехода по ссылке не происходило.
+// let links = document.querySelectorAll('a');
+// for (let link of links) {
+//     link.addEventListener('click', function(event) {
+//         event.preventDefault();
+//         this.textContent = this.textContent + this.href;
+//     })
+// }
+
+
+// Задание 10.
+// Даны два инпута, абзац и ссылка. 
+// Пусть в инпуты вводятся числа. 
+// Сделайте так, чтобы по клику на ссылку в абзац записалась сумма введенных чисел.
+// let input1 = document.querySelector('#input1');
+// let input2 = document.querySelector('#input2');
+// let elem = document.querySelector('#elem');
+// let link = document.querySelector('#link');
+
+// link.addEventListener('click', function(event) {
+//     event.preventDefault();
+//     elem.textContent = Number(input1.value) + Number(input2.value);
+// })
