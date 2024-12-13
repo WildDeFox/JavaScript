@@ -11,3 +11,15 @@
 
 //     child();
 // }
+
+
+// Задание 2.
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('blur', parent);
+
+// function parent() {
+//     let child = () => {
+//         console.log(this.value);
+//     }
+//     child();
+// }
