@@ -23,3 +23,15 @@
 //     }
 //     child();
 // }
+
+
+// Задание 3.
+// С помощью метода call и функции func выведите на экран value каждого из инпутов. 
+// let inputs = document.querySelectorAll('input');
+// for (let input of inputs) {
+//     func.call(input);
+// }
+
+// function func() {
+//     console.log(this.value);
+// }
