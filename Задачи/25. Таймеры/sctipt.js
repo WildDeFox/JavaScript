@@ -36,3 +36,16 @@
 
 //     setInterval(() => console.log(count--), 1000)
 // })
+
+
+// Задание 5.
+// Возьмите ваше решение предыдущей задачи. 
+// Проверьте, что многократное нажатие на кнопку приводит к ускорению отсчета. Исправьте эту проблему.
+let button = document.querySelector('#start');
+
+button.addEventListener('click', function func() {
+    let count = 100;
+
+    setInterval(() => console.log(count--), 1000)
+    this.removeEventListener('click', func);
+})
