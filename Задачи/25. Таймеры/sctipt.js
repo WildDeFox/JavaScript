@@ -25,3 +25,14 @@
 //         clearInterval(timerId);
 //     }
 // }, 1000);
+
+
+// Задание 4.
+// Сделайте кнопку, по нажатию на которую в консоль будет выводится обратный отсчет, начиная с 100.
+// let button = document.querySelector('#start');
+
+// button.addEventListener('click', () => {
+//     let count = 100;
+
+//     setInterval(() => console.log(count--), 1000)
+// })
