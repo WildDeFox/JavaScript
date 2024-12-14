@@ -207,3 +207,8 @@
 //     let date = new Date();
 //     elem.textContent = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
 // }, 1000)
+
+
+// Задание 15.
+// Дан абзац. Напишите код, который выведет сообщение в этот абзац через 10 секунд после загрузки страницы.
+// setTimeout(() => alert('Hello World'), 3000);
