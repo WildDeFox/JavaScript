@@ -87,3 +87,16 @@
 // button.addEventListener('click', function() {
 //     parent.lastElementChild.remove();
 // })
+
+
+// Задание 8.
+// Вставьте ему в начало элемент с текстом 'start', а в конец - элемент с текстом 'finish'.
+// let elem = document.querySelector('#elem');
+
+// let start = document.createElement('li');
+// start.textContent = 'start';
+
+// let finish = document.createElement('li');
+// finish.textContent = 'finish'
+// elem.append(start);
+// elem.prepend(finish);
