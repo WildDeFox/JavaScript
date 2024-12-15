@@ -117,3 +117,23 @@
 // })
 
 // parent.insertBefore(li, elem);
+
+
+// Задание 10.
+// Вставьте перед ним абзац с текстом '!!!'.
+// let div = document.querySelector('#elem');
+
+// let p = document.createElement('p');
+// p.textContent = '!!!';
+
+// div.insertAdjacentElement('beforebegin', p);
+
+
+// Задание 11.
+// Вставьте после него абзац с текстом '!!!'.
+// let div = document.querySelector('#elem');
+
+// let p = document.createElement('p');
+// p.textContent = '!!!';
+
+// div.insertAdjacentElement('afterend', p);
