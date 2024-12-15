@@ -100,3 +100,20 @@
 // finish.textContent = 'finish'
 // elem.append(start);
 // elem.prepend(finish);
+
+
+// Задание 9.
+// Вставьте перед этим элементом элемент с текстом 'new'.
+// Модифицируйте предыдущую задачу так, чтобы клик на вставленный элемент приводил к тому,
+//  что в конец его текста будет добавляться '!'.
+
+// let parent = document.querySelector('#parent');
+// let elem = document.querySelector('#elem');
+
+// let li = document.createElement('li');
+// li.textContent = 'new';
+// li.addEventListener('click', function() {
+//     this.textContent += '!';
+// })
+
+// parent.insertBefore(li, elem);
