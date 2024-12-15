@@ -137,3 +137,15 @@
 // p.textContent = '!!!';
 
 // div.insertAdjacentElement('afterend', p);
+
+
+// Задание 12.
+// Дан инпут. Дана кнопка. По нажатию на кнопку клонируйте этот инпут.
+// let parent = document.querySelector('#parent');
+// let input = document.querySelector('#input');
+// let button = document.querySelector('#button');
+
+// button.addEventListener('click', function() {
+//     let clone = input.cloneNode(true);
+//     parent.appendChild(clone);
+// })
