@@ -48,3 +48,21 @@
 //     elem.textContent = i;
 //     ul.appendChild(elem);
 // }
+
+
+// Задание 5.
+// Дан див. Запустите цикл, который добавит в наш див 5 инпутов. 
+// Пусть дан также абзац. Сделайте так, чтобы каждый из новых инпутов по потери фокуса записывал свой текст в абзац.
+
+// let parent = document.querySelector('#parent');
+// let paragraps = document.querySelector('#elem');
+
+// for (let i = 1; i <= 5; i++) {
+//     let elem = document.createElement('input');
+
+//     elem.addEventListener('blur', function() {
+//         paragraps.textContent = this.value;
+//     })
+
+//     parent.appendChild(elem);
+// }
