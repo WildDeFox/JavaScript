@@ -66,3 +66,24 @@
 
 //     parent.appendChild(elem);
 // }
+
+
+// Задание 6.
+// Сделайте так, чтобы любая li удалялась по клику на нее.
+// let lis = document.querySelectorAll('li');
+
+// for(let li of lis) {
+//     li.addEventListener('click', function() {
+//         this.remove();
+//     })
+// }
+
+
+// Задание 7.
+// Сделайте так, чтобы по каждому клику на кнопку удалялся последний элемент из #parent.
+// let parent = document.querySelector('#parent');
+// let button = document.querySelector('#button');
+
+// button.addEventListener('click', function() {
+//     parent.lastElementChild.remove();
+// })
