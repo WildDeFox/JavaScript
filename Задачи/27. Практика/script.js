@@ -70,3 +70,21 @@
 
 //     parent.appendChild(tr);
 // }
+
+
+// Задание 5.
+// Создать таблицу из массива
+// let arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]];
+
+// let parent = document.querySelector('#parent');
+
+// for(subArr of arr) {
+//     let tr = document.createElement('tr');
+
+//     for (let elem of subArr) {
+//         let td = document.createElement('td');
+//         td.textContent = elem;
+//         tr.appendChild(td);
+//     }
+//     parent.appendChild(tr);
+// }
