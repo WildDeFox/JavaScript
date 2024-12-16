@@ -189,15 +189,26 @@
 // Сделайте так, чтобы любая li удалялась по клику на нее. Речь идет как о тех li, 
 // которые уже есть в списке, так о новых, созданных после нажатия на кнопку.
 
-let button = document.querySelector('#button');
-let parent = document.querySelector('#parent');
+// let button = document.querySelector('#button');
+// let parent = document.querySelector('#parent');
 
-button.addEventListener('click', function() {
-    let li = document.createElement('li');
-    li.textContent = 'item';
-    parent.appendChild(li);
-});
+// button.addEventListener('click', function() {
+//     let li = document.createElement('li');
+//     li.textContent = 'item';
+//     parent.appendChild(li);
+// });
 
-parent.addEventListener('click', function(event) {
-    event.target.remove();
-})
+// parent.addEventListener('click', function(event) {
+//     event.target.remove();
+// })
+
+
+// Задание 11.
+// Ссылка на удаление
+// let elem = document.querySelector('#elem');
+// let remove = document.querySelector('#remove');
+
+// remove.addEventListener('click', function(event) {
+//     elem.remove();
+//     event.preventDefault();
+// })
