@@ -182,3 +182,22 @@
 //         this.textContent = Number(this.textContent) * 5;
 //     })
 // }
+
+
+// Задание 10.
+// Сделайте так, чтобы по клику на кнопку в список добавлялся новый элемент. 
+// Сделайте так, чтобы любая li удалялась по клику на нее. Речь идет как о тех li, 
+// которые уже есть в списке, так о новых, созданных после нажатия на кнопку.
+
+let button = document.querySelector('#button');
+let parent = document.querySelector('#parent');
+
+button.addEventListener('click', function() {
+    let li = document.createElement('li');
+    li.textContent = 'item';
+    parent.appendChild(li);
+});
+
+parent.addEventListener('click', function(event) {
+    event.target.remove();
+})
