@@ -88,3 +88,45 @@
 //     }
 //     parent.appendChild(tr);
 // }
+
+
+// Задание 6.
+// Создать таблицу
+// 6.1: Модифицируйте предыдущую задачу так, чтобы по клику на любую ячейку с возрастом ее содержимое увеличивалось на 1.
+// 6.2: Модифицируйте предыдущую задачу так, чтобы по клику на любую ячейку с зарплатой ее содержимое увеличивалось на 10%.
+
+let parent = document.querySelector('#parent');
+let employees = [
+	{name: 'employee1', age: 30, salary: 400},
+	{name: 'employee2', age: 31, salary: 500},
+	{name: 'employee3', age: 32, salary: 600},
+];
+
+for (let employer of employees) {
+    let tr = document.createElement('tr');
+
+    let td1 = document.createElement('td');
+    td1.textContent = employer.name;
+    tr.appendChild(td1);
+
+    let td2 = document.createElement('td');
+    td2.textContent = employer.age;
+
+    td2.addEventListener('click', function(){
+        this.textContent = Number(this.textContent) + 1;
+    })
+
+    tr.appendChild(td2);
+
+    let td3 = document.createElement('td');
+    td3.textContent = employer.salary;
+
+
+    td3.addEventListener('click', function() {
+        this.textContent = Number(this.textContent) * 1.1;
+    })
+
+    tr.appendChild(td3);
+
+    parent.appendChild(tr);
+}
