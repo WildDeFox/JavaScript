@@ -171,3 +171,14 @@
 //     }
     
 // })
+
+
+// Задание 9.
+// Пусть дана некоторая HTML таблица с числами и кнопка. По нажатию на кнопку увеличьте число в каждой ячейки таблицы в два раза.
+// let tds = document.querySelectorAll('#parent td');
+
+// for(let td of tds) {
+//     td.addEventListener('click', function() {
+//         this.textContent = Number(this.textContent) * 5;
+//     })
+// }
