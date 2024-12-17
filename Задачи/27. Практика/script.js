@@ -251,3 +251,20 @@
 //     td.appendChild(remove);
 //     tr.appendChild(td);
 // }
+
+
+// Задание 14.
+// Редактирование отдельного элемента
+let elem = document.querySelector('#elem');
+
+elem.addEventListener('click', function(event){
+    let input = document.createElement('input');
+    input.value = elem.textContent;
+
+    input.addEventListener('blur', function(event) {
+        elem.textContent = input.value;
+        this.remove();
+    });
+
+    elem.parentElement.appendChild(input);
+})
