@@ -212,3 +212,42 @@
 //     elem.remove();
 //     event.preventDefault();
 // })
+
+
+// Задание 12.
+// Дан тег ul. Добавьте в конец каждого тега li ссылку на удаления этого li из списка.
+// let elems = document.querySelectorAll('#parent li');
+
+// for(let elem of elems) {
+//     let remove = document.createElement('a');
+//     remove.textContent = 'remove';
+//     remove.href = '';
+
+//     remove.addEventListener('click', function(event) {
+//         elem.remove();
+//         event.preventDefault();
+//     })
+
+//     elem.appendChild(elem);
+// }
+
+
+// Задание 13.
+// Дана HTML таблица. Добавьте в нее еще одну колонку, 
+// в которой для каждого ряда таблицы будет стоять ссылка на удаление этого ряда.
+// let trs = document.querySelectorAll('#tabel tr');
+
+// for(let tr of trs) {
+//     let td = document.createElement('td');
+//     let remove = document.createElement('a');
+//     remove.textContent = ' remove';
+//     remove.href = '';
+
+//     remove.addEventListener('click', function(event) {
+//         tr.remove();
+//         event.preventDefault();
+//     })
+
+//     td.appendChild(remove);
+//     tr.appendChild(td);
+// }
