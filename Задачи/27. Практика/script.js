@@ -287,3 +287,27 @@
 //     })
 //     elem.removeEventListener('click', func);
 // })
+
+
+// Задание 16.
+// Дан тег ul. Сделайте так, чтобы по клику на любую li в ней появлялся инпут, 
+// с помощью которого можно будет поредактировать текст этой li.
+
+// let elems = document.querySelectorAll('li');
+
+// for(let elem of elems) {
+//     elem.addEventListener('click', function func(){
+//         let input = document.createElement('input');
+//         input.value = elem.textContent;
+
+//         elem.textContent = '';
+//         elem.appendChild(input);
+
+//         input.addEventListener('blur', function() {
+//             elem.textContent = input.value;
+//             input.remove();
+//             elem.addEventListener('click', func);
+//         })
+//         elem.removeEventListener('click', func);
+//     })
+// }
