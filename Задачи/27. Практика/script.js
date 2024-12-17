@@ -255,16 +255,35 @@
 
 // Задание 14.
 // Редактирование отдельного элемента
-let elem = document.querySelector('#elem');
+// let elem = document.querySelector('#elem');
 
-elem.addEventListener('click', function(event){
-    let input = document.createElement('input');
-    input.value = elem.textContent;
+// elem.addEventListener('click', function(event){
+//     let input = document.createElement('input');
+//     input.value = elem.textContent;
 
-    input.addEventListener('blur', function(event) {
-        elem.textContent = input.value;
-        this.remove();
-    });
+//     input.addEventListener('blur', function(event) {
+//         elem.textContent = input.value;
+//         this.remove();
+//     });
 
-    elem.parentElement.appendChild(input);
-})
+//     elem.parentElement.appendChild(input);
+// })
+
+
+// Задание 15
+// let elem = document.querySelector('elem');
+
+// elem.addEventListener('click', function func(){
+//     let input = document.createElement('input');
+//     input.value = elem.textContent;
+
+//     elem.textContent = '';
+//     elem.appendChild(input);
+
+//     input.addEventListener('blur', function() {
+//         elem.textContent = input.value;
+//         input.remove()
+//         elem.addEventListener('click', func);
+//     })
+//     elem.removeEventListener('click', func);
+// })
