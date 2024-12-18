@@ -1,3 +1,6 @@
+// Константы
+const PI = 3.141;
+
 // Переменные для площади квадрата
 let squareArea = document.querySelector('#squareArea');
 let result1 = document.querySelector('#result1');
@@ -24,6 +27,11 @@ let rectangleSidePerB = document.querySelector('#rectangleSidePerB');
 let result5 = document.querySelector('#result5');
 let button5 = document.querySelector('#button5');
 
+// Переменные для площади круга
+let circleRadius = document.querySelector('#circleRadius');
+let result6 = document.querySelector('#result6');
+let button6 = document.querySelector('#button6');
+
 // Нахождение площади квадрата
 squareArea.addEventListener('blur', function(){
     result1.textContent = Math.pow(Number(squareArea.value), 2);
@@ -48,3 +56,7 @@ button4.addEventListener('click', function() {
 button5.addEventListener('click', function() {
     result5.textContent = (Number(rectangleSidePerA.value) * 2) + (Number(rectangleSidePerB.value) * 2);
 });
+
+button6.addEventListener('click', function() {
+    result6.textContent = Math.pow(PI * Number(circleRadius.value), 2).toFixed(3);
+})
