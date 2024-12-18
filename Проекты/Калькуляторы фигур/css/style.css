@@ -5,11 +5,21 @@ h1 {
 
 fieldset {
     border-radius: 5px;
+    padding: 20px;
 }
 
 legend {
-    font-size: 18px;
+    font-size: 20px;
     color: red;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.calck-wrapper {
+    flex-basis: 350px;
 }
 
 .result-desc {
