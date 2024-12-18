@@ -32,6 +32,11 @@ let circleRadius = document.querySelector('#circleRadius');
 let result6 = document.querySelector('#result6');
 let button6 = document.querySelector('#button6');
 
+// Переменные для длины оружности
+let circleСircumference = document.querySelector('#circleСircumference');
+let result7 = document.querySelector('#result7');
+let button7 = document.querySelector('#button7');
+
 // Нахождение площади квадрата
 squareArea.addEventListener('blur', function(){
     result1.textContent = Math.pow(Number(squareArea.value), 2);
@@ -57,6 +62,12 @@ button5.addEventListener('click', function() {
     result5.textContent = (Number(rectangleSidePerA.value) * 2) + (Number(rectangleSidePerB.value) * 2);
 });
 
+// Нахождение площади круга
 button6.addEventListener('click', function() {
     result6.textContent = Math.pow(PI * Number(circleRadius.value), 2).toFixed(3);
+})
+
+// Нахождение длины окружности
+button7.addEventListener('click', function() {
+    result7.textContent = 2 * (PI * Number(circleСircumference.value));
 })
