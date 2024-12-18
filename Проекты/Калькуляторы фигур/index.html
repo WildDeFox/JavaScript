@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Калькуляторы фигур</title>
 </head>
+
 <body>
     <h1>Калькуляторы фигур</h1>
     <div class="conteiner">
-        <div class="calck-wrapper">
-            <fieldset>
-                <legend>Площадь квадрата</legend>
-                <label>Сторона: <input id="squareArea" type="number" required></label>
-                <div class="result-desc">Площадь: <span class="result" id="result1"></span></div>
-               </fieldset>
-        </div>
- 
-        <div class="calck-wrapper">
-            <fieldset>
-                <legend>Периметр квадрата</legend>
-                <label>Сторона: <input id="squarePerimeter" type="number" required></label>
-                <div class="result-desc">Периметр: <span class="result" id="result2"></span></div>
-               </fieldset>
+        <h2>Квадрат</h2>
+        <div class="calck-block">
+            <div class="calck-wrapper">
+                <fieldset>
+                    <legend>Площадь квадрата</legend>
+                    <label>Сторона: <input id="squareArea" type="number" required></label>
+                    <div class="result-desc">Площадь: <span class="result" id="result1"></span></div>
+                </fieldset>
+            </div>
+
+            <div class="calck-wrapper">
+                <fieldset>
+                    <legend>Периметр квадрата</legend>
+                    <label>Сторона: <input id="squarePerimeter" type="number" required></label>
+                    <div class="result-desc">Периметр: <span class="result" id="result2"></span></div>
+                </fieldset>
+            </div>
         </div>
 
-        <div class="calck-wrapper">
-            <fieldset>
-                <legend>Площадь треугольника</legend>
-                <label>Основание треугольника: <input id="triangleBase" type="number" required></label>
-                <label>Сторона треугольника: <input id="triangleSide" type="number" required></label>
-                <div class="result-desc">Площадь: <span class="result" id="result3"></span></div>
-                <button class="btn-def" id="button3">Рассчитать</button>
-               </fieldset>
+        <h2>Треугольник</h2>
+        <div class="calck-block">
+            <div class="calck-wrapper">
+                <fieldset>
+                    <legend>Площадь треугольника</legend>
+                    <label>Основание треугольника: <input id="triangleBase" type="number" required></label>
+                    <label>Сторона треугольника: <input id="triangleSide" type="number" required></label>
+                    <div class="result-desc">Площадь: <span class="result" id="result3"></span></div>
+                    <button class="btn-def" id="button3">Рассчитать</button>
+                </fieldset>
+            </div>
         </div>
     </div>
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

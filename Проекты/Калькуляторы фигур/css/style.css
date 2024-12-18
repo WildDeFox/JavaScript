@@ -2,10 +2,11 @@ body {
     box-sizing: border-box;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 fieldset {
     border-radius: 5px;
@@ -32,6 +33,13 @@ input {
 .conteiner {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.calck-block {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .calck-wrapper {
