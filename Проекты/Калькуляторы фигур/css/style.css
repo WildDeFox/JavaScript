@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 18px;
+    color: red;
+}
+
+.result-desc {
+    margin-top: 10px;
+}
+
+.result {
+    font-size: 18;
+    color: red;
+    font-weight: bold;
+}
