@@ -1,2 +1,2 @@
 # JavaScript
-Test_1
+Уроки и практика по базовому JavaScript
