@@ -18,6 +18,12 @@ let rectangleSideB = document.querySelector('#rectangleSideB');
 let result4 = document.querySelector('#result4');
 let button4 = document.querySelector('#button4');
 
+// Переменные для периметра прямоугольника
+let rectangleSidePerA = document.querySelector('#rectangleSidePerA');
+let rectangleSidePerB = document.querySelector('#rectangleSidePerB');
+let result5 = document.querySelector('#result5');
+let button5 = document.querySelector('#button5');
+
 // Нахождение площади квадрата
 squareArea.addEventListener('blur', function(){
     result1.textContent = Math.pow(Number(squareArea.value), 2);
@@ -37,3 +43,8 @@ button3.addEventListener('click', function() {
 button4.addEventListener('click', function() {
     result4.textContent = Number(rectangleSideA.value) * Number(rectangleSideB.value);
 })
+
+// Нахождение периметра прямоугольника
+button5.addEventListener('click', function() {
+    result5.textContent = (Number(rectangleSidePerA.value) * 2) + (Number(rectangleSidePerB.value) * 2);
+});
