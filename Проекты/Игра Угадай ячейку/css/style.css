@@ -1,0 +1,13 @@
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+}
