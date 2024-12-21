@@ -12,6 +12,7 @@ console.log(hiddenCells);
 parent.addEventListener('click', function(event) {
     if (event.target.tagName == "TD") {
         console.log(hiddenCells.includes['event.target'])
+        // Вариант не работает 
         // if (hiddenCells.includes[event.target]) {
         //     event.target.style.backgroundColor = 'green';
         //     event.target.textConteiner = '1'
