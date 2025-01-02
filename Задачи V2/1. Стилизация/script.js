@@ -57,3 +57,27 @@
 //     margin = '10px auto';
 //     color  = 'red';
 // `
+
+
+// Задание 6.
+// По клику на кнопку выведите ширину и высоту элемента.
+// let button = document.querySelector('#button');
+// let elem = document.querySelector('#elem');
+
+// button.addEventListener('click', () => {
+//     let elemCss = getComputedStyle(elem);
+//     console.log(`Ширина: ${elemCss.width}`);
+//     console.log(`Высота: ${elemCss.height}`);
+// })
+
+
+// Задание 7.
+// По клику на кнопку увеличьте ширину и высоту элемента в два раза.
+// let button = document.querySelector('#button');
+// let elem = document.querySelector('#elem');
+
+// button.addEventListener('click', () => {
+//     let elemCss = getComputedStyle(elem);
+//     elem.style.width = parseInt(elemCss.width) + parseInt(elemCss.width) + 'px';
+//     elem.style.height = parseInt(elemCss.height) + parseInt(elemCss.height) + 'px';
+// })
