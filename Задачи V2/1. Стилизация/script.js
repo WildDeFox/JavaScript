@@ -45,3 +45,15 @@
 // button2.addEventListener('click', () => {
 //     elem.style.backgroundColor = '';
 // })
+
+
+// Задание 5.
+// Массовая установка стилей
+// let elem = document.querySelector('#elem');
+
+// elem.style.cssText = `
+//     width  = '100px';
+//     height = '100px';
+//     margin = '10px auto';
+//     color  = 'red';
+// `
