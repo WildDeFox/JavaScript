@@ -18,3 +18,14 @@
 //     console.log(parseInt(elem.style.width));
 //     console.log(parseInt(elem.style.height));
 // })
+
+
+// Задание 3.
+// Дана также кнопка. По клику на кнопку выведите толщину границы, ее тип и цвет.
+let button = document.querySelector('#button');
+
+button.addEventListener('click', function() {
+    console.log(`Толщина границы: ${this.style.borderWidth}`);
+    console.log(`Тип границы: ${this.style.borderStyle}`);
+    console.log(`Цвет границы: ${this.style.borderColor}`);
+})
