@@ -22,10 +22,26 @@
 
 // Задание 3.
 // Дана также кнопка. По клику на кнопку выведите толщину границы, ее тип и цвет.
-let button = document.querySelector('#button');
+// let button = document.querySelector('#button');
 
-button.addEventListener('click', function() {
-    console.log(`Толщина границы: ${this.style.borderWidth}`);
-    console.log(`Тип границы: ${this.style.borderStyle}`);
-    console.log(`Цвет границы: ${this.style.borderColor}`);
-})
+// button.addEventListener('click', function() {
+//     console.log(`Толщина границы: ${this.style.borderWidth}`);
+//     console.log(`Тип границы: ${this.style.borderStyle}`);
+//     console.log(`Цвет границы: ${this.style.borderColor}`);
+// })
+
+
+// Задание 4.
+// Дан див и две кнопки. По клику на первую кнопку покрасьте цвет дива в красный цвет, 
+// а по клику на вторую - верните исходный цвет.
+// let button1 = document.querySelector('#button1');
+// let button2 = document.querySelector('#button2');
+// let elem = document.querySelector('#elem')
+
+// button1.addEventListener('click', () => {
+//     elem.style.backgroundColor = 'red';
+// })
+
+// button2.addEventListener('click', () => {
+//     elem.style.backgroundColor = '';
+// })
