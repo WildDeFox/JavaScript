@@ -26,3 +26,25 @@ map.delete(arr1);
 // Очистить всю коллекцию можно с помощью метода clear:
 map.clear();
 
+
+// Пусть дана коллекция Map. Получите массив ее ключей и переберите их циклом for-of.
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let arr3 = [7, 8, 9];
+
+let map = new Map;
+map.set(arr1, 'test1');
+map.set(arr2, 'test2');
+map.set(arr3, 'test3');
+
+let keys = map.keys();
+for (let key of keys) {
+    console.log(key);
+}
+
+
+// Пусть дана коллекция Map. Получите массив ее элементов и переберите их циклом for-of.
+let values = map.values();
+for (let value of values) {
+    console.log(value);
+}
