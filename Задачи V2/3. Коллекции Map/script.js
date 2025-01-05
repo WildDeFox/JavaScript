@@ -48,3 +48,44 @@ let values = map.values();
 for (let value of values) {
     console.log(value);
 }
+
+
+// Даны инпуты. Переберите эти инпуты циклом и создайте коллекцию Map, 
+// ключами в которой будут инпуты, а значением - их порядковый номер на странице. 
+// Сделайте так, чтобы по клику на любой инпут ему в value записывался его порядковый номер.
+
+// let inputs = document.querySelectorAll('input');
+
+// let i = 1;
+// let map = new Map;
+// for (let input of inputs) {
+//     map.set(input, i++);
+// }
+
+// for (let input of inputs) {
+//     input.addEventListener('click', function() {
+//         this.value = map.get(this);
+//     })
+// }
+
+
+// Даны инпуты. В каждый инпут можно ввести число. 
+// Пусть по нажатию на Enter инпут запоминает введенное число. 
+// Сделайте так, чтобы по потери фокуса в инпуте в консоль выводился массив всех введенных ранее в инпут чисел.
+let inputs = document.querySelectorAll('input');
+
+let map = new Map;
+
+for (let input of inputs) {
+
+    input.addEventListener('keypress', function(event) {
+        if (event.code == 'Enter') {
+            map.set(this, this.value);
+            console.log(1);
+        }
+    })
+
+    input.addEventListener('blur', function() {
+        console.log(map.entries());
+    })
+}
