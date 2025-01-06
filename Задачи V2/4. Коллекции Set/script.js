@@ -49,3 +49,14 @@
 // let arr = [1, 2, 3];
 
 // let set = new Set(arr);
+
+
+// Задание 7.
+// Напишите функцию, которая параметром будет принимать массив и возвращать этот массив без дублей.
+// function clearArr (arr) {
+//     return [...new Set(arr)];
+// }
+
+// let arr = [1, 2, 3, 3, 3, 4, 5, 5];
+// let newArr = clearArr(arr);
+// console.log(newArr);
