@@ -35,3 +35,9 @@
 // буква 'a', буква 'b' один раз или ниодного, буква 'a'.
 // let str = 'aa aba abba abbba abca abea';
 // console.log(str.replace(/ab?a/g, "!"));
+
+
+// Задание 7.
+// Напишите регулярку, которая найдет строки по шаблону: строка 'ab' повторяется 1 или более раз.
+// let str = 'ab abab abab abababab abea';
+// console.log(str.replace(/(ab)+/g, '!'));
