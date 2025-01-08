@@ -75,3 +75,21 @@
 // Напишите регулярку, которая найдет строки в квадратных скобках и заменит их на '!'.
 // let str = '[abc] {abc} abc (abc) [abc]';
 // console.log(str.replace(/\[abc\]/g, '!'));
+
+
+// Задание 13.
+// Напишите регулярку, которая найдет строки 'abba', 'abbba', 'abbbba' и только их.
+// let str = 'aa aba abba abbba abbbba abbbbba';
+// console.log(str.replace(/ab{1,4}a/g, '!'));
+
+
+// Задание 14.
+// Напишите регулярку, которая найдет строки вида 'aba', в которых 'b' встречается менее 3-х раз (включительно).
+// let str = 'aa aba abba abbba abbbba abbbbba';
+// console.log(str.repeat(/ab{1,3}a/g, '!'));
+
+
+// Задание 15.
+// Напишите регулярку, которая найдет строки вида 'aba', в которых 'b' встречается более 4-х раз (включительно).
+// let str = 'aa aba abba abbba abbbba abbbbba';
+// console.log(str.replace(/ab{4,}a/g, '!'));
