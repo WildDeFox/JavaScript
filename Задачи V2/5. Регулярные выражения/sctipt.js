@@ -240,3 +240,15 @@
 // Упростите код
 // let res = str.replace(/[a-zA-Z]/g, '!');
 // let resSimpla = str.replace(/[a-z]/ig, '!');
+
+
+// Задание 39.
+// Напишите регулярку, которая найдет первую подстроку из букв. 
+// let str = 'abc def xyz';
+// console.log(str.replace(/^\w+/g, '!'));
+
+
+// Задание 40.
+// Напишите регулярку, которая найдет последнюю подстроку из букв. 
+// let str = 'abc def xyz';
+// console.log(str.replace(/\w+$/g, '!'));
