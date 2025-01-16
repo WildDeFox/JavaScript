@@ -266,3 +266,25 @@
 // 'a+b+c d+e+f x+y+z';
 // let str = 'abc def xyz';
 // console.log(str.replace(/\B/g, '+'));
+
+
+// Задание 43.
+// Поставить в конец строк "!".
+// let str = `
+// 	abc
+// 	def
+// 	ghi
+// 	jkl
+// `;
+// console.log(str.replace(/$/gm, '!'));
+
+
+// Задание 44.
+// Поставить в начало строки "!".
+// let str = `
+// 	abc
+// 	def
+// 	ghi
+// 	jkl
+// `;
+// console.log(str.replace(/^/gm, '! '));
