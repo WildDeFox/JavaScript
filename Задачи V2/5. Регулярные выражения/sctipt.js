@@ -302,3 +302,10 @@
 // по краям стоят буквы 'a', а между ними - или буква 'e' два раза или буква 'x' любое количество раз. 
 // let str = 'aeeea aeea aea axa axxa axxxa';
 // console.log(str.replace(/a(e{2}|x+)a/g, '!'));
+
+
+// Задание 47.
+// Вынесите регулярку в переменную в следующем коде: 
+// let str = 'a aa aaa aaaa aaaa';
+// let reg = /a+/;
+// let res = str.replace(reg, '!');
